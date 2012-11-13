@@ -52,8 +52,6 @@ object Scalaz {
     val x13 = 1.some *> 2.some
     val x14 = none *> 2.some
     val x15 = none <* 2.some
-    ^(3.some, 5.some) {_ + _}
-    (3.some |@| 5.some) {_ + _}
   }
 }
 

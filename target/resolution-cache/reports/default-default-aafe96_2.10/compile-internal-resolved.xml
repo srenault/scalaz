@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="default-aafe96_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
+		date="20121112094813"/>
+	<dependencies>
+		<module organisation="org.scalaz" name="scalaz-core_2.10.0-M7">
+			<revision name="7.0.0-M3" status="release" pubdate="20120822002434" resolver="public" artresolver="public" homepage="http://scalaz.org" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="2882" time="473" location="/Users/sre/.ivy2/cache/org.scalaz/scalaz-core_2.10.0-M7/ivy-7.0.0-M3.xml" searched="true" original-local-location="/Users/sre/.ivy2/cache/org.scalaz/scalaz-core_2.10.0-M7/ivy-7.0.0-M3.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10.0-M7/7.0.0-M3/scalaz-core_2.10.0-M7-7.0.0-M3.pom"/>
+				<caller organisation="default" name="default-aafe96_2.10" conf="optional, compile, provided, compile-internal" rev="7.0.0-M3" rev-constraint-default="7.0.0-M3" rev-constraint-dynamic="7.0.0-M3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.10.0-M7" type="bundle" ext="jar" status="successful" details="" size="11435128" time="5350" location="/Users/sre/.ivy2/cache/org.scalaz/scalaz-core_2.10.0-M7/bundles/scalaz-core_2.10.0-M7-7.0.0-M3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10.0-M7/7.0.0-M3/scalaz-core_2.10.0-M7-7.0.0-M3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.0-M7" status="release" pubdate="20120821045718" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2395" time="0" location="/Users/sre/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.0-M7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0-M7/scala-library-2.10.0-M7.pom"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.10.0-M7" conf="default, compile, runtime, master" rev="2.10.0-M7" rev-constraint-default="2.10.0-M7" rev-constraint-dynamic="2.10.0-M7" callerrev="7.0.0-M3"/>
+				<caller organisation="default" name="default-aafe96_2.10" conf="optional, compile, provided, compile-internal" rev="2.10.0-M7" rev-constraint-default="2.10.0-M7" rev-constraint-dynamic="2.10.0-M7" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
